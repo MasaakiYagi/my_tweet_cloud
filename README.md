@@ -23,8 +23,12 @@ https://self-development.info/mecab%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88
 また、上述のsettings.jsonの"CHASEN"の値には下記のようにインストールしたMeCab辞書のパスを記載する。  
 "[MeCabのインストールフォルダ]\\dic\\ipadic"  
 
-### **1-3.python環境**
-（後ほど記載）
+### **1-3.フォントファイルの取得**
+https://moji.or.jp/ipafont/ipaex00401/  
+よりIPAexゴシックのフォントファイルを取得し、ルートディレクトリ直下に格納する。  
+ファイル名称は"ipaexg.ttf"
+### **1-4.python環境**
+（後ほど記載。コード内でimportしているライブラリが必要）
 
 ## **2.使い方**
 ### **2-1.tweetの取得→csv保存**
